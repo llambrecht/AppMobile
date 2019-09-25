@@ -1,6 +1,8 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using AppMobile.Model;
+using AppMobile.View;
 
 namespace AppMobile
 {
@@ -10,7 +12,7 @@ namespace AppMobile
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new LoginPage();
         }
 
         protected override void OnStart()

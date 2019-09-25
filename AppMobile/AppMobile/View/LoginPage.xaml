@@ -4,8 +4,10 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="AppMobile.MainPage">
-
-
-
+             x:Class="AppMobile.View.LoginPage">
+    <StackLayout x:Name="StackLayoutStock">
+        <Label Text="Bienvenue sur l'application de gestion de stock !" />
+        <Label Text="Line&#x0a;Break:" />
+        <Label Text="hello"/>
+    </StackLayout>
 </ContentPage>
